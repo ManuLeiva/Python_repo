@@ -1,10 +1,9 @@
-import sys
 import requests
 import os
-import math
+
 
 # print(sys.version)
-print (sys.executable)
+print(sys.executable)
 
 
 def greet(who_to_greet):
