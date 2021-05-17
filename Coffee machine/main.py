@@ -104,7 +104,7 @@ def last_function():
     nickles = int(input("how many nickles? "))
     pennies = int(input("how many pennies? "))
 
-    total = str(round((quarters*0.25)+(dimes*0.1)+(nickles*5/100)+(pennies*1/100),2))
+    total = int(round((quarters*0.25)+(dimes*0.1)+(nickles*5/100)+(pennies*1/100),2))
     print(total)
 
     money_comparison(total, choose)
